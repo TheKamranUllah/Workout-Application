@@ -37,7 +37,14 @@ public class Workout {
                       "5 push ups x3\n10 wall push ups x2\n20 second mermaid twist x2\n45 plank x2"),
               new Workout("Slim Thick Abs",
                       "1 minute plant x2\n50 jumping jacks x3\n1 minute walk sit x2\n10 burpee x3\n30 crunches x2\n30 sit ups x2"),
-              new Workout("WEEK WORKOUT","")
+              new Workout("WEEK WORKOUT",""),
+              new Workout("Monday","15 squats X3 || 15 knee push-ups X3\n12 triceps dips X3 || 30 step-ups X3\n16 backwards lungs (8 each leg) X3\n12 overhead triceps || extensions X3"),
+              new Workout("Tuesday","16 forward lunges (8 each leg) X3\n15 dumbbell hammer curls X3 || 15 glute bridges X3 || 15 bicep curls X3\n15 dumbbell rows X3\n15 stiff leg deadlifts X3"),
+              new Workout("Wednesday","20 Russian twists X3\n30-seconds planks X3\n20 leg raises X3"),
+              new Workout("Thursday","15 squats X3 || 15 knee push-ups X3\n12 triceps dips X3 || 30 step ups X3\n16 backward lunges (8 each leg) X3\n 12 overhead tricpes || extension X3"),
+              new Workout("Friday","16 forward lunges (6 each leg) X3\n15 dumbbell hammer curls X3\n15 glute bridges X3 || 15 bicep curls X3\n15 dumbbell rows X3 || 15 stiff leg deadlifts X3"),
+              new Workout("Saturday","30-45 minutes walking (low-intensity steady state cardio)"),
+              new Workout("Sunday","Reset the days")
             };
 
     public String getName() {
