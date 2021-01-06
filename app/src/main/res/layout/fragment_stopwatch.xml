@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StopwatchFragment">
+
+
+
+    <TextView
+        android:id="@+id/time_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:background="@drawable/layout_round"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="70sp"
+        />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/time_view"
+        android:layout_marginTop="20dp"
+        android:text="@string/start"
+        android:textColor="@android:color/white"
+        android:background="@drawable/layout_round"
+        />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_start"
+        android:layout_marginTop="20dp"
+        android:text="@string/stop"
+        android:textColor="@android:color/white"
+        android:background="@drawable/layout_round_green"
+        />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_stop"
+        android:layout_marginTop="20dp"
+        android:text="@string/reset"
+        android:textColor="@android:color/white"
+        android:background="@drawable/red_button_layout"
+        />
+
+
+</RelativeLayout>
